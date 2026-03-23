@@ -17,10 +17,8 @@ A modern and responsive website built using HTML, CSS, and JavaScript to showcas
 - Clean and modern layout
 
 ## 🌐 Live Demo
-(Add your deployed link here)
+https://sbieeemcet.netlify.app/
 
-## 📸 Screenshots
-(Add screenshots here)
 
 ## 🧠 Learnings
 - Improved frontend structuring
