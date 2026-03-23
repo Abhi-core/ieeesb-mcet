@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IEEE SB MCET | Advancing Technology for Humanity</title>
+  <meta name="description"
+    content="IEEE Student Branch at Musaliar College of Engineering and Technology, Pathanamthitta – empowering students through innovation, workshops and technical excellence." />
+
+  <!-- Bootstrap 4 CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    crossorigin="anonymous">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Google Fonts: Outfit -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+  <!-- Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+  <!-- Typed.js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+
+  <!-- ========== PRELOADER ========== -->
+  <div id="preloader">
+    <img src="logo_ieee-removebg-preview.png" alt="IEEE SB MCET Logo" class="preloader-logo" />
+    <div class="preloader-bar-track">
+      <div class="preloader-bar"></div>
+    </div>
+  </div>
+
+  <!-- Background light rays (from ligh-rays.js logic) -->
+  <div class="light-rays" id="lightRays"></div>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light head-navbar" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="logo_ieee-removebg-preview.png" alt="IEEE Logo" height="48" class="mr-2">
+          <span>IEEE SB MCET</span>
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#committee">Execom</a></li>
+            <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+            <li class="nav-item"><a class="nav-link" href="#resources">Resources</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Gallery">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section id="home">
+    <div class="container text-center" style="position:relative;z-index:1;">
+      <h1 id="blur-text">Advancing Technology for Humanity</h1>
+      <p class="lead mb-5"
+        style="color: rgba(255,255,255,0.7); font-size: 1.1rem; max-width: 600px; margin: 0 auto 2rem;">
+        Empowering students at Musaliar College of Engineering and Technology through innovation and collaboration.
+      </p>
+      <div class="quick-access">
+        <a href="https://www.ieee.org/join" class="btn-ripple"><span>Join IEEE</span></a>
+        <a href="#events" class="btn-ripple"><span>View Events</span></a>
+        <a href="#contact" class="btn-ripple"><span>Contact Us</span></a>
+      </div>
+    </div>
+    <div class="scroll-down">
+      <i class="bi bi-chevron-double-down"></i>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section id="about" class="container py-5">
+    <h2 class="title text-center">About <span id="typing"></span></h2>
+    <div class="about-content">
+      <p class="lead">The IEEE Student Branch at Musaliar College of Engineering and Technology (MCET), Pathanamthitta,
+        has been a hub of innovation, collaboration, and technical excellence since its inception on 22nd November 2012.
+      </p>
+      <p>As a dynamic extension of the Institute of Electrical and Electronics Engineers (IEEE), our branch was founded
+        with a clear mission: to create awareness among budding engineers about emerging technologies and global
+        innovations. Over the years, IEEE SB MCET has grown into a well-structured and vibrant community, committed to
+        empowering students through technical workshops, hackathons, and innovation challenges.</p>
+      <div class="d-flex justify-content-center mt-4" style="gap: 1rem; flex-wrap: wrap;">
+        <a href="https://musaliarcollege.com/" class="btn btn-primary btn-ripple">About MCET</a>
+        <a href="https://www.ieee.org" class="btn btn-outline-primary btn-ripple">About IEEE</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXECOM SECTION ========== -->
+  <section id="committee">
+    <div class="container">
+      <h2 class="text-center mb-2">Our Executive Committee</h2>
+      <p class="text-center text-muted mb-4" style="font-size: 0.95rem;">2025 Batch</p>
+
+      <div class="committee-2025">
+
+        <div class="member">
+          <div class="member-img-wrapper">
+            <img src="aftab.jpg" alt="Aftab Ibinu Rasheed" />
+          </div>
+          <h5>Aftab Ibinu Rasheed</h5>
+          <p>Chair &amp; Link Representative</p>
+        </div>
+
+        <div class="member">
+          <div class="member-img-wrapper">
+            <img src="aneesha.jpg" alt="Aneesha Beegum" />
+          </div>
+          <h5>Aneesha Beegum</h5>
+          <p>Vice Chair</p>
+        </div>
+
+        <div class="member">
+          <div class="member-img-wrapper">
+            <img src="athira.jpg" alt="Athira Pradeep" />
+          </div>
+          <h5>Athira Pradeep</h5>
+          <p>Secretary</p>
+        </div>
+
+        <div class="member">
+          <div class="member-img-wrapper">
+            <img src="alan.jpg" alt="Alan Geo Thomas" />
+          </div>
+          <h5>Alan Geo Thomas</h5>
+          <p>Joint Secretary</p>
+        </div>
+
+        <div class="member">
+          <div class="member-img-wrapper">
+            <img src="adithyan.jpg" alt="Adithyan S" />
+          </div>
+          <h5>Adithyan S</h5>
+          <p>Treasurer</p>
+        </div>
+
+        <div class="member">
+          <div class="member-img-wrapper">
+            <img src="adwaitha.jpg" alt="Adwaitha K Saji" />
+          </div>
+          <h5>Adwaitha K Saji</h5>
+          <p>WIE Chair</p>
+        </div>
+
+        <div class="member">
+          <div class="member-img-wrapper">
+            <img src="ganesh.jpg" alt="Ganesh Kumar S" />
+          </div>
+          <h5>Ganesh Kumar S</h5>
+          <p>Membership Development Coordinator</p>
+        </div>
+
+        <div class="member">
+          <div class="member-img-wrapper">
+            <img src="ajil.jpg" alt="Ajil Abraham Mathew" />
+          </div>
+          <h5>Ajil Abraham Mathew</h5>
+          <p>Technical Coordinator</p>
+        </div>
+
+        <div class="member">
+          <div class="member-img-wrapper">
+            <img src="Abijith.jpg" alt="Abijith P B" />
+          </div>
+          <h5>Abijith P B</h5>
+          <p>Webmaster</p>
+        </div>
+
+        <div class="member">
+          <div class="member-img-wrapper">
+            <img src="amitha.jpg" alt="Amitha Joseph" />
+          </div>
+          <h5>Amitha Joseph</h5>
+          <p>Program / Event Coordinator</p>
+        </div>
+
+        <div class="member">
+          <div class="member-img-wrapper">
+            <img src="sai.jpg" alt="Saikrishna S" />
+          </div>
+          <h5>Saikrishna S</h5>
+          <p>Event Sub-Coordinator</p>
+        </div>
+
+        <div class="member">
+          <div class="member-img-wrapper">
+            <img src="adwaith.jpg" alt="Adwaith Saji" />
+          </div>
+          <h5>Adwaith Saji</h5>
+          <p>Media Manager</p>
+        </div>
+
+        <div class="member">
+          <div class="member-img-wrapper">
+            <img src="nadasha.jpg" alt="Nadasha Anil" />
+          </div>
+          <h5>Nadasha Anil</h5>
+          <p>Content Writer</p>
+        </div>
+
+        <div class="member">
+          <div class="member-img-wrapper">
+            <img src="vishnu.jpg" alt="Vishnu Sujithkumar Pillai" />
+          </div>
+          <h5>Vishnu Sujithkumar Pillai</h5>
+          <p>Design Head</p>
+        </div>
+
+        <div class="member">
+          <div class="member-img-wrapper">
+            <img src="melvin.jpg" alt="Melvin M Suresh" />
+          </div>
+          <h5>Melvin M Suresh</h5>
+          <p>Design Consultant</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EVENTS SECTION ========== -->
+  <section id="events" class="container py-5">
+    <h2 class="text-center mb-2" style="font-size:2.5rem;font-weight:800;color:var(--primary-color);">Our Events</h2>
+    <p class="text-center text-muted mb-5">Highlights from past and upcoming IEEE events</p>
+
+    <div class="row">
+      <!-- Past Events -->
+      <div class="col-lg-6 mb-4">
+        <div class="event-card">
+          <h3><i class="bi bi-calendar-check-fill mr-2" style="color:var(--secondary-color);"></i>Past Events</h3>
+          <div class="event">
+            <h4>IGNITRON 2025</h4>
+            <p class="text-muted"><i class="bi bi-calendar3 mr-1"></i>Jan 20, 2025</p>
+            <p style="font-size:0.9rem;color:#666;">A flagship technical event with hands-on workshops and talks by
+              industry experts.</p>
+          </div>
+          <div class="event-gallery">
+            <img src="ev1.png" alt="Event Photo 1" />
+            <img src="ev2.png" alt="Event Photo 2" />
+            <img src="ev3.png" alt="Event Photo 3" />
+            <img src="ev4.png" alt="Event Photo 4" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Upcoming Events -->
+      <div class="col-lg-6 mb-4">
+        <div class="event-card">
+          <h3><i class="bi bi-calendar-event-fill mr-2" style="color:var(--secondary-color);"></i>Upcoming Events</h3>
+          <div class="event">
+            <h4>INSPEC 1.0 — IEEE Spectrum Talk Series</h4>
+            <p class="text-muted"><i class="bi bi-clock mr-1"></i>Coming soon!</p>
+            <p style="font-size:0.9rem;color:#666;">Call for speakers. Present your favorite IEEE Spectrum article in a
+              5–10 min talk.</p>
+          </div>
+          <div class="event-images">
+            <img src="spec1.jpg" alt="INSPEC Poster 1" />
+            <img src="spec2.jpg" alt="INSPEC Poster 2" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== RESOURCES & GALLERY ========== -->
+  <section id="resources" class="container py-5">
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <h2 class="mb-4" style="font-size:2rem;font-weight:800;color:var(--primary-color);">Resources</h2>
+        <ul class="list-group list-group-flush rounded-4 overflow-hidden" style="box-shadow: var(--shadow);">
+          <a href="https://www.ieee.org/join" class="list-group-item list-group-item-action py-3">
+            <i class="bi bi-person-plus-fill mr-2 text-primary"></i> Join IEEE
+          </a>
+          <a href="CONSTITUTION AND BYLAWS.pdf" class="list-group-item list-group-item-action py-3">
+            <i class="bi bi-file-pdf-fill mr-2 text-danger"></i> Constitution &amp; By-Laws (PDF)
+          </a>
+          <a href="https://ieeexplore.ieee.org" class="list-group-item list-group-item-action py-3">
+            <i class="bi bi-journal-bookmark-fill mr-2 text-info"></i> IEEE Xplore
+          </a>
+          <a href="https://www.ieeer10.org" class="list-group-item list-group-item-action py-3">
+            <i class="bi bi-globe mr-2 text-success"></i> IEEE Region 10
+          </a>
+          <a href="https://ieeekerala.org" class="list-group-item list-group-item-action py-3">
+            <i class="bi bi-geo-alt-fill mr-2 text-warning"></i> IEEE Kerala Section
+          </a>
+        </ul>
+      </div>
+      <div class="col-md-6 mb-4">
+        <h2 class="mb-4" style="font-size:2rem;font-weight:800;color:var(--primary-color);">Gallery</h2>
+        <div id="Gallery" class="rounded-4 overflow-hidden"
+          style="height:310px;position:relative;box-shadow:var(--shadow);">
+          <img src="ieeeesbmcet.jpg" class="w-100 h-100" alt="IEEE SB MCET Group Photo" style="object-fit:cover;">
+          <div
+            style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(0,0,0,0.65));padding:1.2rem;border-radius:0 0 16px 16px;">
+            <h5 class="text-white m-0" style="font-weight:700;">Group Photo — IEEE SB MCET</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section id="contact" class="container my-5 py-5"
+    style="background:white;border-radius:28px;box-shadow:var(--shadow);">
+    <div class="row">
+      <div class="col-lg-6 mb-4">
+        <h2 class="mb-4" style="font-size:2rem;font-weight:800;color:var(--primary-color);">Get in Touch</h2>
+        <form
+          action="https://docs.google.com/forms/d/e/1FAIpQLSe35_HGP-Vo04xK9og-x_Tug4TOSKUttkI201zc7zgkam6UEQ/formResponse"
+          method="POST" target="_blank">
+          <div class="mb-3">
+            <input type="text" name="entry.2005620554" class="form-control" placeholder="Your Name" required />
+          </div>
+          <div class="mb-3">
+            <input type="email" name="entry.1045781291" class="form-control" placeholder="Your Email" required />
+          </div>
+          <div class="mb-3">
+            <textarea name="entry.839337160" class="form-control" rows="4" placeholder="Your Message"
+              required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-100 btn-ripple">
+            <i class="bi bi-send-fill mr-2"></i>Send Message
+          </button>
+        </form>
+        <div class="mt-4">
+          <p class="mb-2">
+            <i class="bi bi-envelope-fill mr-2" style="color:var(--secondary-color);"></i>
+            <a href="mailto:ieeesbmcet.official@gmail.com" style="color:var(--primary-color);font-weight:600;">
+              ieeesbmcet.official@gmail.com
+            </a>
+          </p>
+          <div class="d-flex mt-3" style="gap:0.8rem;">
+            <a href="https://linkedin.com" style="color:var(--primary-color);font-size:1.8rem;transition:all 0.3s ease;"
+              onmouseover="this.style.transform='translateY(-3px) scale(1.1)'" onmouseout="this.style.transform='none'">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://instagram.com" style="color:#E1306C;font-size:1.8rem;transition:all 0.3s ease;"
+              onmouseover="this.style.transform='translateY(-3px) scale(1.1)'" onmouseout="this.style.transform='none'">
+              <i class="bi bi-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 mt-4 mt-lg-0">
+        <div class="rounded-4 overflow-hidden" style="box-shadow:var(--shadow);">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.232142768104!2d76.81496987501249!3d9.282584093326676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06154ec8f06fe3%3A0xf53146ce00c7f5d5!2sMusaliar%20College%20of%20Engineering%20%26%20Technology%2C%20Pathanamthitta!5e0!3m2!1sen!2sin!4v1691700000000!5m2!1sen!2sin"
+            width="100%" height="420" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="text-center py-5">
+    <div class="container">
+      <img src="logo_ieee-removebg-preview.png" alt="IEEE Logo" height="48" class="mb-3 d-block mx-auto"
+        style="filter: brightness(0) invert(1);">
+      <p class="scroll-float-text mb-1">IEEE SB MCET &copy; 2025 | <a href="#">Privacy Policy</a> | <a
+          href="#contact">Contact</a></p>
+      <p style="color:#555;font-size:0.82rem;margin-top:0.5rem;">Created with &#10084;&#65039; by <a
+          href="https://abijith-portfolio-alpha.vercel.app/" target="_blank" rel="noopener"
+          style="color:var(--accent-color);font-weight:600;text-decoration:none;">Abijith P B</a></p>
+    </div>
+  </footer>
+
+  <!-- ========== SCRIPTS ========== -->
+  <script>
+    // ---- PRELOADER + BLUR TEXT SYNC ----
+    const PRELOADER_DURATION = 1600; // ms before preloader starts fading
+    const PRELOADER_FADE = 600;      // ms for fade-out CSS transition
+
+    // Builds and fires the word-by-word blur animation immediately when called
+    function initBlurText() {
+      const heading = document.getElementById('blur-text');
+      if (!heading) return;
+      const words = heading.textContent.trim().split(/\s+/);
+      heading.innerHTML = '';
+      words.forEach((word, i) => {
+        const span = document.createElement('span');
+        span.textContent = word;
+        span.style.animationDelay = `${i * 0.28}s`; // stagger: each word 280ms after prior
+        heading.appendChild(span);
+      });
+    }
+
+    window.addEventListener('load', () => {
+      const preloader = document.getElementById('preloader');
+
+      setTimeout(() => {
+        preloader.classList.add('hidden');
+
+        // Fire blur-text animation RIGHT as preloader finishes fading
+        setTimeout(() => {
+          preloader.remove();
+          initBlurText();
+        }, PRELOADER_FADE);
+
+      }, PRELOADER_DURATION);
+    });
+
+    // ---- LIGHT RAYS (from ligh-rays.js) ----
+    let angle = 0;
+    const rays = document.getElementById('lightRays');
+    function animateRays() {
+      angle += 0.03;
+      rays.style.background = `radial-gradient(ellipse at ${50 + Math.sin(angle) * 20}% ${50 + Math.cos(angle) * 15}%, rgba(0, 119, 182, 0.09) 0%, transparent 70%)`;
+      requestAnimationFrame(animateRays);
+    }
+    animateRays();
+
+    document.addEventListener('DOMContentLoaded', () => {
+
+      // ---- BLUR TEXT handled by initBlurText() after preloader ----
+      // (called from preloader callback above — not here)
+
+      // ---- TYPED.JS ----
+      if (document.getElementById('typing')) {
+        new Typed('#typing', {
+          strings: ['MCET', 'IEEE'],
+          typeSpeed: 100,
+          backSpeed: 60,
+          backDelay: 1200,
+          loop: true
+        });
+      }
+
+      // ---- NAVBAR SHADOW ON SCROLL ----
+      const navbar = document.getElementById('mainNav');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 60) {
+          navbar.style.boxShadow = '0 4px 24px rgba(0,53,102,0.15)';
+        } else {
+          navbar.style.boxShadow = 'none';
+        }
+      });
+
+      // ---- SCROLL REVEAL (Intersection Observer) ----
+      const revealItems = document.querySelectorAll('.member, .event, .event-card');
+      const revealObs = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = '1';
+            entry.target.style.transform = 'translateY(0)';
+            revealObs.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.08 });
+
+      revealItems.forEach(el => {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(28px)';
+        el.style.transition = 'opacity 0.55s ease, transform 0.55s ease';
+        revealObs.observe(el);
+      });
+
+      // ---- RIPPLE EFFECT ON BTN-RIPPLE ----
+      document.querySelectorAll('.btn-ripple').forEach(btn => {
+        btn.addEventListener('click', function (e) {
+          const ripple = document.createElement('span');
+          ripple.classList.add('ripple');
+          const rect = this.getBoundingClientRect();
+          const size = Math.max(rect.width, rect.height);
+          ripple.style.width = ripple.style.height = size + 'px';
+          ripple.style.left = (e.clientX - rect.left - size / 2) + 'px';
+          ripple.style.top = (e.clientY - rect.top - size / 2) + 'px';
+          this.appendChild(ripple);
+          setTimeout(() => ripple.remove(), 600);
+        });
+      });
+
+    });
+  </script>
+
+  <!-- script.js (typed.js fallback) -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
