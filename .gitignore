@@ -1,0 +1,14 @@
+# Assets (requested to be ignored)
+img/
+docs/
+*.jpg
+*.png
+*.pdf
+
+# IDE and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
